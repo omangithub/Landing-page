@@ -12,24 +12,28 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     padding: 0px 100px;
+    align-items: center;
 }
 
 .logo {
-    color: #F9FaF8;
+    color: #F9FAF8;
     font-weight: bold;
+    font-size: 24px;
+
 }
 
 ul {
     display:flex;
     list-style-type: none;
     gap:16px;
-    color: #6e6e6e;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .content1 {
     background-color: #1F2937;
     align-items: center;
-    justify-content: center; 
+    justify-content:center; 
     border: 0px;
     padding: 100px;
 }
@@ -75,18 +79,19 @@ ul {
     text-align: center;
     margin:0;
     font-weight: bold;
+    border:solid white 1px;
 }
 
 .Intro {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .intro-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin: 0px 0px 0px 100px;
     width: 250px;
     height: 250px;
 }
@@ -111,7 +116,7 @@ ul {
 .boxes {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -177,3 +182,51 @@ ul {
     margin:0;
 }
 
+.bluebox {
+    display: flex;
+    background-color: rgb(50, 156, 255);
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 100px;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.callleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltop {
+    color:white;
+    font-weight: bold;
+    margin:0px;
+    padding:0px 0px 10px 0px;
+}
+
+.callbottom {
+    color:white;
+    font-weight: light;
+    margin:0px;
+    padding:0px;
+}
+
+.callright {
+    display:flex;
+    align-items: center;
+}
+
+.content5 {
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center; 
+    border: 0px;
+    padding: 20px 100px 20px 100px;
+}
+
+.copywrite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
